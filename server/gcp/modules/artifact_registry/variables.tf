@@ -13,9 +13,9 @@ variable "repo_description" {
   type        = string
 }
 variable "repo_format" {
-  default        = "DOCKER"
-  decdescription = "Artifact repo format"
-  type           = string
+  default     = "DOCKER"
+  description = "Artifact repo format"
+  type        = string
 }
 
 variable "location" {

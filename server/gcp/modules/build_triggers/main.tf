@@ -2,7 +2,7 @@
 resource "google_cloudbuild_trigger" "gcp_trigger" {
   location = var.trigger_location
   name     = var.trigger_name
-  project  = var.project
+  project  = var.project_id
 
 
   trigger_template {

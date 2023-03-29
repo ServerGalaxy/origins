@@ -13,6 +13,11 @@ module "build_trigger" {
 }
 
 module "artifact_registry" {
-  source     = "../../modules/artifact_registry"
-  project_id = "projeto-dev-8452-81d5b1be11e0"
+  source           = "../../modules/artifact_registry"
+  project_id       = "projeto-dev-8452-81d5b1be11e0"
+  location         = "us-central1"
+  repo_description = "SUP = true"
+  repo_id          = "server-img"
+  repo_format      = "DOCKER"
 }
+
