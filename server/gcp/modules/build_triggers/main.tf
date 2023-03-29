@@ -1,4 +1,11 @@
 
+
+# NOTE: project var is for the project id not the name
+resource "google_project_service" "enable_cloud_biuld" {
+  project = var.project_id
+  service = "cloudbuild.googleapis.com"
+}
+
 resource "google_cloudbuild_trigger" "gcp_trigger" {
   location = var.trigger_location
   name     = var.trigger_name
