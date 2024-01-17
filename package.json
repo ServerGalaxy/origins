@@ -26,5 +26,5 @@
     "start": "npm run build && node dist/app.js",
     "test": "Add Test Lib"
   },
-  "version": "1.0.0"
+  "version": "0.0.0"
 }
