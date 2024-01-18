@@ -4,7 +4,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req: Request, res: Response) => {
-  const name = 'Victor';
+  const name = 'MandM';
   return res.status(200).json({sup: true, name: name});
 });
 
