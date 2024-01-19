@@ -1,3 +1,10 @@
+# [1.4.0-beta.3](https://github.com/ServerGalaxy/origins/compare/v1.4.0-beta.2...v1.4.0-beta.3) (2024-01-19)
+
+
+### Features
+
+* **blue-101:** updated npm plugin - ye ([2de7707](https://github.com/ServerGalaxy/origins/commit/2de7707b08534a2763cea2580034a4cef8384fd3))
+
 # [1.4.0-beta.2](https://github.com/ServerGalaxy/origins/compare/v1.4.0-beta.1...v1.4.0-beta.2) (2024-01-19)
 
 
