@@ -36,7 +36,7 @@
     "lint": "gts lint",
     "start": "npm run build && node dist/app.js",
     "test": "Add Test Lib",
-    "pub-release": "cz"
+    "release": "cz"
   },
   "version": "0.0.0",
   "release": {
@@ -58,6 +58,7 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/git",
+      ["@semantic-release/npm",{"npmPublish": false}],
       "@semantic-release/github"
     ]
   },
