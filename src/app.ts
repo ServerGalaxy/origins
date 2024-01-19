@@ -4,8 +4,11 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req: Request, res: Response) => {
-  const name = 'Victor';
-  return res.status(200).json({sup: true, name: name});
+  return res.status(200).json({sup: true});
+});
+
+app.get('/woah', (req: Request, res: Response) => {
+  return res.status(200).json({sup: true, endpoint: 'woah'});
 });
 
 app.listen(port, () => {
