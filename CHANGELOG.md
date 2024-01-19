@@ -1,3 +1,10 @@
+# [1.4.0-beta.2](https://github.com/ServerGalaxy/origins/compare/v1.4.0-beta.1...v1.4.0-beta.2) (2024-01-19)
+
+
+### Features
+
+* **blue-101:** updated plugins for release ([15f4c8e](https://github.com/ServerGalaxy/origins/commit/15f4c8e59f011cd2007745091fec27fa706b4d9d))
+
 # [1.4.0-beta.1](https://github.com/ServerGalaxy/origins/compare/v1.3.0...v1.4.0-beta.1) (2024-01-19)
 
 
