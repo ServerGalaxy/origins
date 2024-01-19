@@ -1,3 +1,10 @@
+# [1.4.0-alpha.1](https://github.com/ServerGalaxy/origins/compare/v1.3.0...v1.4.0-alpha.1) (2024-01-19)
+
+
+### Features
+
+* **blue-101:** added /service api route ([623bc7b](https://github.com/ServerGalaxy/origins/commit/623bc7b309f53f43587608bcee57505ae4e99d06))
+
 # [1.4.0-beta.1](https://github.com/ServerGalaxy/origins/compare/v1.3.0...v1.4.0-beta.1) (2024-01-19)
 
 
