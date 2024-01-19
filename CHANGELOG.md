@@ -1,3 +1,10 @@
+# [1.4.0-beta.4](https://github.com/ServerGalaxy/origins/compare/v1.4.0-beta.3...v1.4.0-beta.4) (2024-01-19)
+
+
+### Bug Fixes
+
+* updated latest alpha ([ecf39d2](https://github.com/ServerGalaxy/origins/commit/ecf39d25c89bb7a4b43e0eb3cb3f372dc2843e2e))
+
 # [1.4.0-alpha.1](https://github.com/ServerGalaxy/origins/compare/v1.3.0...v1.4.0-alpha.1) (2024-01-19)
 
 ### Features
