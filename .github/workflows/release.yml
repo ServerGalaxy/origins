@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-      - next
-      - next-major
-      - beta
       - alpha
+      - beta
+      # - next
+      # - next-major
 
 jobs:
   release:
