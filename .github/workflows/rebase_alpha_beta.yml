@@ -1,0 +1,28 @@
+name: Rebase Alpha and Beta on Main Merge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  rebase-on-main-merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Rebase Alpha Branch
+      run: |
+        git fetch origin alpha
+        git checkout alpha
+        git rebase origin/main
+        git push origin alpha
+
+    - name: Rebase Beta Branch
+      run: |
+        git fetch origin beta
+        git checkout beta
+        git rebase origin/main
+        git push origin beta
