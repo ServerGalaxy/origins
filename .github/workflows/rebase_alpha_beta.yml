@@ -26,3 +26,5 @@ jobs:
         git checkout beta
         git rebase origin/main
         git push origin beta
+      env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
