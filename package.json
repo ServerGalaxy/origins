@@ -36,14 +36,12 @@
     "lint": "gts lint",
     "start": "npm run build && node dist/app.js",
     "test": "Add Test Lib",
-    "release": "cz"
+    "release": "git add . && cz"
   },
   "version": "0.0.0",
   "release": {
     "branches": [
       "main",
-      "next",
-      "next-major",
       {
         "name": "beta",
         "prerelease": true
