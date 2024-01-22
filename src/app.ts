@@ -14,6 +14,9 @@ app.get('/woah', (req: Request, res: Response) => {
 app.get('/service', (req: Request, res: Response) => {
   return res.status(200).json({sup: true, endpoint: 'woah'});
 });
+app.get('/metadata', (req: Request, res: Response) => {
+  return res.status(200).json({sup: true, endpoint: 'woah', name: 'Creed'});
+});
 
 app.listen(port, () => {
   // TODO: Update 8080 to port const
