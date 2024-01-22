@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/ServerGalaxy/origins/compare/v1.4.0...v1.4.1) (2024-01-22)
+
+
+### Bug Fixes
+
+* **blue-101:** updated branches in release pipeline and github actions with added creds" ([9bf1516](https://github.com/ServerGalaxy/origins/commit/9bf1516f46566ffbd0688e528b1e7b876914b560))
+
 # [1.4.0](https://github.com/ServerGalaxy/origins/compare/v1.3.0...v1.4.0) (2024-01-19)
 
 
