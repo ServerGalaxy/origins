@@ -22,21 +22,12 @@ jobs:
       run: |
         git fetch origin alpha
         git checkout alpha
-        git rebase origin/main || true  # Continue even if conflicts occur
-
-        # Handle merge conflicts (you may need to update this based on your needs)
-        git diff --name-only --diff-filter=U | xargs git checkout --ours --
-        git add .
-        git rebase --continue
-
+        git pull --rebase --force origin main
         git push origin alpha
 
     - name: Rebase Beta Branch
       run: |
         git fetch origin beta
         git checkout beta
-        git rebase origin/main || true  # Continue even if conflicts occur
-        git diff --name-only --diff-filter=U | xargs git checkout --ours --
-        git add .
-        git rebase --continue
+        git pull --rebase --force origin main
         git push origin beta
