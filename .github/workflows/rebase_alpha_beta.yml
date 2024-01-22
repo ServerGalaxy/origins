@@ -13,6 +13,11 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v2
 
+    - name: Setup git
+      run: |
+          git config --global user.email "pinedavictor095@gmail.com"
+          git config --global user.name "PinedaVictor"
+
     - name: Rebase Alpha Branch
       run: |
         git fetch origin alpha
@@ -26,5 +31,3 @@ jobs:
         git checkout beta
         git rebase origin/main
         git push origin beta
-      env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
