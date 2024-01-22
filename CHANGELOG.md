@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/ServerGalaxy/origins/compare/v1.4.1...v1.4.2) (2024-01-22)
+
+
+### Bug Fixes
+
+* **blue-191:** updated order in release plugins ([07f5b27](https://github.com/ServerGalaxy/origins/commit/07f5b27e04e9b01eb5ad0bf5b75581c9e7d63b8a))
+
 ## [1.4.1](https://github.com/ServerGalaxy/origins/compare/v1.4.0...v1.4.1) (2024-01-22)
 
 

@@ -38,7 +38,7 @@
     "test": "Add Test Lib",
     "release": "git add . && cz"
   },
-  "version": "0.0.0",
+  "version": "1.4.2",
   "release": {
     "branches": [
       "main",
@@ -55,7 +55,12 @@
       "@semantic-release/changelog",
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      ["@semantic-release/npm",{"npmPublish": false}],
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
       "@semantic-release/git",
       "@semantic-release/github"
     ]
