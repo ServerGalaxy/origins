@@ -36,7 +36,7 @@
     "lint": "gts lint",
     "start": "npm run build && node dist/app.js",
     "test": "Add Test Lib",
-    "release": "git add . && cz && node ./scripts/create-pr.ts"
+    "release": "git add . && cz && ts-node ./scripts/create-pr.ts"
   },
   "version": "1.4.2",
   "release": {

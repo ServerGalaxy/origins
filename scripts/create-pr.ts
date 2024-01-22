@@ -41,5 +41,5 @@ const currentBranch = execSync('git rev-parse --abbrev-ref HEAD')
 
 // Create a pull request
 executeCommand(
-  `npx create-pull-request --base beta --head ${currentBranch} --title "${currentBranch}" --body "${markdown}"`
+  `npx create-pull-request --base beta --head ${currentBranch} --title "${currentBranch}" --body ${markdown}`
 );
