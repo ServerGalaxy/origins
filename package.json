@@ -36,14 +36,12 @@
     "lint": "gts lint",
     "start": "npm run build && node dist/app.js",
     "test": "Add Test Lib",
-    "release": "cz"
+    "release": "git add . && cz"
   },
-  "version": "0.0.0",
+  "version": "1.4.2",
   "release": {
     "branches": [
       "main",
-      "next",
-      "next-major",
       {
         "name": "beta",
         "prerelease": true
@@ -57,8 +55,13 @@
       "@semantic-release/changelog",
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
       "@semantic-release/git",
-      ["@semantic-release/npm",{"npmPublish": false}],
       "@semantic-release/github"
     ]
   },

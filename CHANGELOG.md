@@ -1,10 +1,51 @@
+<<<<<<< HEAD
 # [1.4.0-beta.4](https://github.com/ServerGalaxy/origins/compare/v1.4.0-beta.3...v1.4.0-beta.4) (2024-01-19)
+=======
+## [1.4.2](https://github.com/ServerGalaxy/origins/compare/v1.4.1...v1.4.2) (2024-01-22)
+
+
+### Bug Fixes
+
+* **blue-191:** updated order in release plugins ([07f5b27](https://github.com/ServerGalaxy/origins/commit/07f5b27e04e9b01eb5ad0bf5b75581c9e7d63b8a))
+
+## [1.4.1](https://github.com/ServerGalaxy/origins/compare/v1.4.0...v1.4.1) (2024-01-22)
+
+
+### Bug Fixes
+
+* **blue-101:** updated branches in release pipeline and github actions with added creds" ([9bf1516](https://github.com/ServerGalaxy/origins/commit/9bf1516f46566ffbd0688e528b1e7b876914b560))
+
+# [1.4.0](https://github.com/ServerGalaxy/origins/compare/v1.3.0...v1.4.0) (2024-01-19)
+>>>>>>> main
 
 
 ### Bug Fixes
 
 * updated latest alpha ([ecf39d2](https://github.com/ServerGalaxy/origins/commit/ecf39d25c89bb7a4b43e0eb3cb3f372dc2843e2e))
 
+<<<<<<< HEAD
+=======
+
+### Features
+
+* **blue-101:** added /service api route ([623bc7b](https://github.com/ServerGalaxy/origins/commit/623bc7b309f53f43587608bcee57505ae4e99d06))
+* **blue-101:** updated npm plugin - ye ([2de7707](https://github.com/ServerGalaxy/origins/commit/2de7707b08534a2763cea2580034a4cef8384fd3))
+* **blue-101:** updated plugins for release ([15f4c8e](https://github.com/ServerGalaxy/origins/commit/15f4c8e59f011cd2007745091fec27fa706b4d9d))
+
+# [1.4.0-alpha.2](https://github.com/ServerGalaxy/origins/compare/v1.4.0-alpha.1...v1.4.0-alpha.2) (2024-01-19)
+
+
+### Bug Fixes
+
+* updated latest alpha ([ecf39d2](https://github.com/ServerGalaxy/origins/commit/ecf39d25c89bb7a4b43e0eb3cb3f372dc2843e2e))
+
+
+### Features
+
+* **blue-101:** updated npm plugin - ye ([2de7707](https://github.com/ServerGalaxy/origins/commit/2de7707b08534a2763cea2580034a4cef8384fd3))
+* **blue-101:** updated plugins for release ([15f4c8e](https://github.com/ServerGalaxy/origins/commit/15f4c8e59f011cd2007745091fec27fa706b4d9d))
+
+>>>>>>> main
 # [1.4.0-alpha.1](https://github.com/ServerGalaxy/origins/compare/v1.3.0...v1.4.0-alpha.1) (2024-01-19)
 
 ### Features

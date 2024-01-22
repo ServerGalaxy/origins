@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-      - next
-      - next-major
-      - beta
       - alpha
+      - beta
+      # - next
+      # - next-major
 
 jobs:
   release:
@@ -16,6 +16,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Setup git
+        run: |
+          git config --global user.email "pinedavictor095@gmail.com"
+          git config --global user.name "PinedaVictor"
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
