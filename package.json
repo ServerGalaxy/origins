@@ -1,8 +1,10 @@
 {
   "author": "Engineered Innovation Group LLC",
   "dependencies": {
+    "dotenv": "^16.3.2",
     "express": "^4.18.2",
     "nodemon": "^2.0.22",
+    "openai": "^4.25.0",
     "ts-node": "^10.9.1"
   },
   "description": "",
@@ -36,7 +38,8 @@
     "lint": "gts lint",
     "start": "npm run build && node dist/app.js",
     "test": "Add Test Lib",
-    "release": "git add . && cz && ts-node ./scripts/create-pr.ts"
+    "auto-pr": "ts-node ./scripts/auto-pr/main.ts",
+    "release": "git add . && cz && npm run auto-pr"
   },
   "version": "1.4.2",
   "release": {
