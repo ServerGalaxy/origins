@@ -46,11 +46,11 @@
     "branches": [
       "main",
       {
-        "name": "beta",
+        "name": "dev",
         "prerelease": true
       },
       {
-        "name": "alpha",
+        "name": "int",
         "prerelease": true
       }
     ],
