@@ -53,6 +53,12 @@ if (!githubToken) {
   process.exit(1);
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+export const submitPR = async () => {
+=======
+>>>>>>> main
 /**
  *
  * @param baseBranch Base Branch
@@ -65,6 +71,10 @@ export const submitPR = async (
   title: string,
   head: string
 ) => {
+<<<<<<< HEAD
+=======
+>>>>>>> alpha
+>>>>>>> main
   const summary = (await getOpenAiRes()) as string;
   const pullRequestBody = getDescription(summary);
   const gitUser = getCurrentGitHubUser();
@@ -78,9 +88,21 @@ export const submitPR = async (
         Authorization: `Bearer ${githubToken}`,
       },
       body: JSON.stringify({
+<<<<<<< HEAD
         title: title,
         head: head,
         base: baseBranch,
+=======
+<<<<<<< HEAD
+        title: currentBranch,
+        head: currentBranch,
+        base: 'beta',
+=======
+        title: title,
+        head: head,
+        base: baseBranch,
+>>>>>>> alpha
+>>>>>>> main
         body: pullRequestBody,
         assignees: [`${gitUser}`],
       }),
