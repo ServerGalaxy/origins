@@ -68,7 +68,6 @@ export const submitPR = async (
   const summary = (await getOpenAiRes()) as string;
   const pullRequestBody = getDescription(summary);
   const gitUser = getCurrentGitHubUser();
-  console.log(gitUser);
 
   try {
     const github = await fetch(apiUrl, {
