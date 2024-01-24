@@ -19,12 +19,14 @@ ${completed}
 };
 
 // Get the current branch
-const currentBranch = execSync('git rev-parse --abbrev-ref HEAD')
-  .toString()
-  .trim();
+export const getCurrentBranch = () => {
+  return execSync('git rev-parse --abbrev-ref HEAD').toString().trim();
+};
 
 export const getCommits = () => {
-  return execSync(`git log --pretty=format:"%s" -n 15 origin/${currentBranch}`)
+  return execSync(
+    `git log --pretty=format:"%s" -n 15 origin/${getCurrentBranch()}`
+  )
     .toString()
     .trim();
 };
@@ -51,7 +53,22 @@ if (!githubToken) {
   process.exit(1);
 }
 
+<<<<<<< HEAD
 export const submitPR = async () => {
+=======
+/**
+ *
+ * @param baseBranch Base Branch
+ * @param title Title of PR
+ * @param head Head branch
+ * @returns URL where PR was created
+ */
+export const submitPR = async (
+  baseBranch: string,
+  title: string,
+  head: string
+) => {
+>>>>>>> alpha
   const summary = (await getOpenAiRes()) as string;
   const pullRequestBody = getDescription(summary);
   const gitUser = getCurrentGitHubUser();
@@ -65,9 +82,15 @@ export const submitPR = async () => {
         Authorization: `Bearer ${githubToken}`,
       },
       body: JSON.stringify({
+<<<<<<< HEAD
         title: currentBranch,
         head: currentBranch,
         base: 'beta',
+=======
+        title: title,
+        head: head,
+        base: baseBranch,
+>>>>>>> alpha
         body: pullRequestBody,
         assignees: [`${gitUser}`],
       }),
