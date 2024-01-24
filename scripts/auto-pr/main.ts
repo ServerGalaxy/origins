@@ -1,7 +1,9 @@
 import 'dotenv/config';
-import {submitPR} from './github';
+import {submitPR, getCurrentBranch} from './github';
 
 function main() {
-  submitPR();
+  submitPR('beta', getCurrentBranch(), getCurrentBranch());
+  submitPR('alpha', 'Release Alpha', 'beta');
+  submitPR('main', 'Release Production', 'alpha');
 }
 main();
