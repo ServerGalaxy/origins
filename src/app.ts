@@ -2,17 +2,9 @@ import express, {Request, Response} from 'express';
 
 const app = express();
 const port = 8080;
-// TESTING
 
 app.get('/', (req: Request, res: Response) => {
   return res.status(200).json({sup: true});
-});
-
-app.get('/woah', (req: Request, res: Response) => {
-  return res.status(200).json({sup: true, endpoint: 'woah'});
-});
-app.get('/service', (req: Request, res: Response) => {
-  return res.status(200).json({sup: true, endpoint: 'woah'});
 });
 
 app.listen(port, () => {
