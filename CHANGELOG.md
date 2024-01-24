@@ -1,3 +1,16 @@
+# [1.5.0-int.1](https://github.com/ServerGalaxy/origins/compare/v1.4.2...v1.5.0-int.1) (2024-01-24)
+
+
+### Bug Fixes
+
+* **merge conflicts:** merged latest alpha ([55bc33b](https://github.com/ServerGalaxy/origins/commit/55bc33b6071abb6eaf604705342509db43fd248f))
+* **resolved merge conflicts:** int update ([fad5dea](https://github.com/ServerGalaxy/origins/commit/fad5deab909ad70fc2552665de5c8d71030c6f2f))
+
+
+### Features
+
+* **blue-102:** added API route service to return user service data ([#33](https://github.com/ServerGalaxy/origins/issues/33)) ([0d66f2f](https://github.com/ServerGalaxy/origins/commit/0d66f2f452a6b2986740ad7a123c7d0558859be4))
+
 # [1.5.0-dev.1](https://github.com/ServerGalaxy/origins/compare/v1.4.3-dev.1...v1.5.0-dev.1) (2024-01-24)
 
 ### Features
