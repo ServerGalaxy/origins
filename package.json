@@ -40,7 +40,7 @@
     "test": "Add Test Lib",
     "commit": "git add . && cz && ts-node ./scripts/auto-pr/push.ts",
     "auto-pr": "ts-node ./scripts/auto-pr/main.ts",
-    "release": "cz && npm run auto-pr"
+    "release": "npm run auto-pr"
   },
   "version": "1.5.0-dev.1",
   "release": {
