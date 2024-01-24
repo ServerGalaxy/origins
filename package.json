@@ -41,7 +41,7 @@
     "auto-pr": "ts-node ./scripts/auto-pr/main.ts",
     "release": "git add . && cz && npm run auto-pr"
   },
-  "version": "1.4.2",
+  "version": "1.4.3",
   "release": {
     "branches": [
       "main",
