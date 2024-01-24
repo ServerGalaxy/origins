@@ -38,8 +38,9 @@
     "lint": "gts lint",
     "start": "npm run build && node dist/app.js",
     "test": "Add Test Lib",
+    "commit": "git add . && cz && ts-node ./scripts/auto-pr/push.ts",
     "auto-pr": "ts-node ./scripts/auto-pr/main.ts",
-    "release": "git add . && cz && npm run auto-pr"
+    "release": "npm run auto-pr"
   },
   "version": "1.5.0-int.1",
   "release": {
