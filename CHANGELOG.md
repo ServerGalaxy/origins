@@ -1,3 +1,10 @@
+## [1.4.3-dev.1](https://github.com/ServerGalaxy/origins/compare/v1.4.2...v1.4.3-dev.1) (2024-01-24)
+
+
+### Bug Fixes
+
+* **merge conflicts:** merged latest alpha ([55bc33b](https://github.com/ServerGalaxy/origins/commit/55bc33b6071abb6eaf604705342509db43fd248f))
+
 <<<<<<< HEAD
 # [1.4.0-beta.4](https://github.com/ServerGalaxy/origins/compare/v1.4.0-beta.3...v1.4.0-beta.4) (2024-01-19)
 =======
