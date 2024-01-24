@@ -1,3 +1,10 @@
+# [1.5.0-dev.2](https://github.com/ServerGalaxy/origins/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2024-01-24)
+
+
+### Bug Fixes
+
+* **blue-133:** removed API route ./serviceC as it is no longer needed ([#39](https://github.com/ServerGalaxy/origins/issues/39)) ([9147a97](https://github.com/ServerGalaxy/origins/commit/9147a976775b2fb88f4e8d670f509a64bbe34d5b))
+
 # [1.5.0-dev.1](https://github.com/ServerGalaxy/origins/compare/v1.4.3-dev.1...v1.5.0-dev.1) (2024-01-24)
 
 
