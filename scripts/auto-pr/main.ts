@@ -15,8 +15,8 @@ function executeCommand(command: string): void {
 
 function main() {
   executeCommand(`git push origin ${getCurrentBranch()}`);
-  submitPR('beta', getCurrentBranch(), getCurrentBranch());
-  submitPR('alpha', 'Release Alpha', 'beta');
-  submitPR('main', 'Release Production', 'alpha');
+  submitPR('dev', getCurrentBranch(), getCurrentBranch());
+  submitPR('int', 'Release Int', 'dev');
+  submitPR('main', 'Release Production', 'int');
 }
 main();
