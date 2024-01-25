@@ -1,10 +1,19 @@
-# [1.5.0-int.1](https://github.com/ServerGalaxy/origins/compare/v1.4.2...v1.5.0-int.1) (2024-01-24)
+# [1.5.0-int.2](https://github.com/ServerGalaxy/origins/compare/v1.5.0-int.1...v1.5.0-int.2) (2024-01-25)
 
 
 ### Bug Fixes
 
-* **merge conflicts:** merged latest alpha ([55bc33b](https://github.com/ServerGalaxy/origins/commit/55bc33b6071abb6eaf604705342509db43fd248f))
-* **resolved merge conflicts:** int update ([fad5dea](https://github.com/ServerGalaxy/origins/commit/fad5deab909ad70fc2552665de5c8d71030c6f2f))
+* **blue-133:** removed API route ./serviceC as it is no longer needed ([#39](https://github.com/ServerGalaxy/origins/issues/39)) ([9147a97](https://github.com/ServerGalaxy/origins/commit/9147a976775b2fb88f4e8d670f509a64bbe34d5b))
+* Resolved merged conflicts ([e07067f](https://github.com/ServerGalaxy/origins/commit/e07067fd96bdfb698dfc671b0c2a0d2d0b6ee19f))
+
+# [1.5.0-dev.2](https://github.com/ServerGalaxy/origins/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2024-01-24)
+
+
+### Bug Fixes
+
+* **blue-133:** removed API route ./serviceC as it is no longer needed ([#39](https://github.com/ServerGalaxy/origins/issues/39)) ([9147a97](https://github.com/ServerGalaxy/origins/commit/9147a976775b2fb88f4e8d670f509a64bbe34d5b))
+
+# [1.5.0-dev.1](https://github.com/ServerGalaxy/origins/compare/v1.4.3-dev.1...v1.5.0-dev.1) (2024-01-24)
 
 
 ### Features
