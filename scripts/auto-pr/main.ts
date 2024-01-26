@@ -13,10 +13,10 @@ function executeCommand(command: string): void {
   }
 }
 
-function main() {
+async function main() {
   executeCommand(`git push origin ${getCurrentBranch()}`);
-  submitPR('dev', getCurrentBranch(), getCurrentBranch());
-  submitPR('int', 'Release Int', 'dev');
-  submitPR('main', 'Release Production', 'int');
+  await submitPR('dev', getCurrentBranch(), getCurrentBranch());
+  await submitPR('int', 'Release Int', 'dev');
+  await submitPR('main', 'Release Production', 'int');
 }
 main();
