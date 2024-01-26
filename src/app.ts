@@ -20,8 +20,6 @@ app.get('/serviceC', (req: Request, res: Response) => {
 });
 
 app.get('/serviceZ', (req: Request, res: Response) => {
-  return res.status(200).json({sup: true});
-});
 
 app.listen(port, () => {
   // TODO: Update 8080 to port const
