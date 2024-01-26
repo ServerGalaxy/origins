@@ -45,15 +45,7 @@
   "version": "1.5.0-dev.2",
   "release": {
     "branches": [
-      "main",
-      {
-        "name": "dev",
-        "prerelease": true
-      },
-      {
-        "name": "int",
-        "prerelease": true
-      }
+      "main"
     ],
     "plugins": [
       "@semantic-release/changelog",
