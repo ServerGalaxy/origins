@@ -85,6 +85,7 @@ export const submitPR = async (
       }),
     });
     const data = await github.json();
+    console.log('The github data:', data);
     console.log('PR created at:', data.html_url);
     return data;
   } catch (error) {
