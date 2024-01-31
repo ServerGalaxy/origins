@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/ServerGalaxy/origins/compare/v1.4.2...v1.5.0) (2024-01-31)
+
+
+### Bug Fixes
+
+* **merge conflicts:** merged latest alpha ([55bc33b](https://github.com/ServerGalaxy/origins/commit/55bc33b6071abb6eaf604705342509db43fd248f))
+
+
+### Features
+
+* updated route for user data ([1cc13c0](https://github.com/ServerGalaxy/origins/commit/1cc13c0819e4121bf4fcaa9c9ef509c11082793f))
+
 # [1.5.0-int.2](https://github.com/ServerGalaxy/origins/compare/v1.5.0-int.1...v1.5.0-int.2) (2024-01-25)
 
 
