@@ -15,7 +15,7 @@ app.get('/serviceB', (req: Request, res: Response) => {
   return res.status(200).json({sup: true});
 });
 
-app.get('/serviceC', (req: Request, res: Response) => {
+app.get('/service3', (req: Request, res: Response) => {
   return res.status(200).json({sup: true});
 });
 
