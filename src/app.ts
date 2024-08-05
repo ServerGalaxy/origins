@@ -7,7 +7,7 @@ app.get('/', (req: Request, res: Response) => {
   return res.status(200).json({sup: true});
 });
 
-app.get('/service', (req: Request, res: Response) => {
+app.get('/callback', (req: Request, res: Response) => {
   return res.status(200).json({sup: true});
 });
 
