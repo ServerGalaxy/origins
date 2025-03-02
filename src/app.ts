@@ -8,6 +8,14 @@ app.get('/', (req: Request, res: Response) => {
   return res.status(200).json({sup: true});
 });
 
+app.get('/testing-pr', (req: Request, res: Response) => {
+  return res.status(200).json({sup: true});
+});
+
+app.get('/testing-auto-pr', (req: Request, res: Response) => {
+  return res.status(200).json({sup: true});
+});
+
 app.listen(port, () => {
   console.log('API listening on port http://localhost:8080/');
 });
