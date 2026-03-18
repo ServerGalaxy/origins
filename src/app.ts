@@ -12,6 +12,10 @@ app.get('/user', (req: Request, res: Response) => {
   return res.status(200).json({sup: true});
 });
 
+app.get('/project', (req: Request, res: Response) => {
+  return res.status(200).json({sup: true});
+});
+
 app.listen(port, () => {
   console.log('API listening on port http://localhost:8080/');
 });
